@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from bs4.element import NavigableString
 from bs4.element import Tag
 
-SOURCE = "/Users/lindsayrgwatt/apps/kindle2text/highlights.html"
+SOURCE = "/Users/lindsayrgwatt/apps/kindle2text/recent_highlights.html"
 
 entries = open(SOURCE, 'r')
 soup = BeautifulSoup(entries)
